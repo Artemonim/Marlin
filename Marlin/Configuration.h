@@ -632,7 +632,7 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 290
+#define HEATER_0_MAXTEMP 300
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -1226,7 +1226,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 400.0 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 1004.0 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -2370,7 +2370,7 @@
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_3_LABEL       "CERAMO"
-#define PREHEAT_3_TEMP_HOTEND 275
+#define PREHEAT_3_TEMP_HOTEND 280
 #define PREHEAT_3_TEMP_BED    110
 #define PREHEAT_3_TEMP_CHAMBER 35
 #define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
