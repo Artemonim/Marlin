@@ -2205,7 +2205,7 @@
    *  |  1       2  |   | 1         4 |    | 1         2 |   | 2           |
    *  LF --------- RF   LF --------- RF    LF --------- RF   LF --------- RF
    */
-  #define BED_TRAMMING_LEVELING_ORDER Default
+  //#define BED_TRAMMING_LEVELING_ORDER {LF,RB,LB,RF}
 #endif
 
 /**
